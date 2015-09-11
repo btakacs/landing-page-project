@@ -447,6 +447,9 @@ html {
 
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -528,16 +531,63 @@ html {
   margin: 0 auto;
 }
 
+/**
+ * The Three Case Images
+ */
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.cases .content {
+    margin-top: 26px;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 50px;
+    margin-top: 70px;
+    margin-right: 0; 
+    margin-bottom: 50;
+    margin-left: 0;
+    font-weight: 300;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    list-style-type: none;
+    float: left;
+
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cases .devices p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
 button {
-    width: 9.688rem;
+    width: 155px;
     background-color: #f15a29;
     border-color: #f15a29;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 1rem 1.5rem;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
     color: white;
-    font-size: 1.125rem;
+    font-size: 18px;
 
 }
 
